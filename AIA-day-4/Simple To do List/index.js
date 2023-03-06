@@ -22,7 +22,7 @@ function addTaskToArray(descText, statusText) {
     status: statusText,
   };
   arrayOfTasks.push(task);
-  console.log(task);
+  console.log(arrayOfTasks);
   addTaskToPage(arrayOfTasks);
 }
 
