@@ -1,0 +1,48 @@
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    position: relative;
+    display: flex;
+    width: 10rem;
+    border-radius: 3px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    width: 100%;
+    
+}
+
+.movie-desc{
+    position: relative;
+    background-color: white;
+}
+.movie-score{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 6px;
+    top: -20px;
+    border: 1px solid green;
+    background-color: black;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.movie-score > p{
+    color: white;
+    font-size: 12px;
+}
+.movie-detail{
+    padding: 10px;
+    margin-top: 5px;
+}
+p.title{
+    font-size: 13px;
+}
+p.release-date{
+    font-size: 10px;
+}
