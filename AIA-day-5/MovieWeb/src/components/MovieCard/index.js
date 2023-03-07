@@ -1,4 +1,5 @@
 import "./styles.css";
+import moment from "moment";
 export default function MovieCard({ release_date, name, image, rating }) {
   return (
     <div className="container">
@@ -12,7 +13,9 @@ export default function MovieCard({ release_date, name, image, rating }) {
         </div>
         <div className="movie-detail">
           <p className="title">{name}</p>
-          <p className="release-date">{release_date}</p>
+          <p className="release-date">
+            {moment(release_date).format("MMM Do YY")}
+          </p>
         </div>
       </div>
     </div>
