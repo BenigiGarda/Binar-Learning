@@ -4,7 +4,7 @@ export default function MovieCard({ release_date, name, image, rating }) {
   return (
     <div className="container">
       <div className="img-container">
-        <img src={`https://image.tmdb.org/t/p/w500/${image}`}></img>
+        <img src={`https://image.tmdb.org/t/p/w500/${image}`} alt="..."></img>
       </div>
       <div className="movie-desc">
         <div className="movie-score">

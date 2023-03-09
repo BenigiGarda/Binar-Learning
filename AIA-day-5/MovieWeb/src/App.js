@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import MovieCard from "./components/MovieCard";
 import { useEffect, useState } from "react";
