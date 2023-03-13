@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 const DemoComponentTask2 = () => {
   return (
     <div>
